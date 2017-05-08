@@ -15,7 +15,7 @@ USER node
 RUN npm install 
 ENV PORT 3000  
 ENV DB_PORT_27017_TCP_ADDR db
-CMD [ "npm", "start" ]
+CMD [ "node", "server.js" ]
 EXPOSE 3000
 
 
